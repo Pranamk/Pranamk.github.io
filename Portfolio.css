@@ -1,0 +1,281 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: #CCCCFF;
+	color: #040218;
+	margin: 0;
+	padding: 0;
+	background-image: url(#);
+}
+
+/* HEADER PORTION css code */
+header {
+	background-color: #002244;
+	color: #fff;
+	padding: 20px;
+	background-image: url(My\ project.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.intro {
+	color: #FFFF;
+	margin-left: 8px;
+	padding: 20px;
+	text-align: left;
+	text-decoration: double;
+}
+
+.intro fieldset {
+	width: 700px;
+	height: 600px;
+	border-color: #fff
+}
+
+.intro img {
+	border-radius: 50%;
+}
+
+.left-image {
+	display: flex;
+	/* Use flexbox to align items */
+	align-items: center;
+	/* Align items vertically center */
+	gap: 1rem;
+	/* Add some space between image and text */
+}
+
+.left-image img {
+	width: 220px;
+	/* Set image width */
+	height: 220px;
+	/* Set image height */
+	object-fit: cover;
+	/* Use object-fit to scale image to fill available space */
+}
+
+header h2 {
+	padding-left: 80px;
+}
+
+.hilite {
+	font-size: larger;
+}
+
+.hilite:hover {
+	color: #770606;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #2e37b4,
+		0 0 82px #2e37b4,
+		0 0 92px #2e37b4,
+		0 0 102px #2e37b4,
+		0 0 151px #2e37b4;
+}
+
+nav {
+	display: inline-block;
+	background-color: #002244;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+header .container {
+	text-align: center;
+
+
+}
+
+header nav:hover {
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #2e37b4,
+		0 0 82px #2e37b4,
+		0 0 92px #2e37b4,
+		0 0 102px #2e37b4,
+		0 0 151px #2e37b4;
+}
+
+
+nav a:hover {
+	color: #a71313;
+	font-weight: bold;
+}
+
+main {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+
+/* FORM PART */
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #90b1d1;
+}
+
+form input[type="submit"] {
+	background-color: #002244;
+	color: #fff;
+	padding: 0px;
+	border: none;
+
+}
+
+/* PROJECT  */
+.card {
+	transition: 0.4s;
+	width: 100%;
+}
+
+.card:hover {
+
+	box-shadow: 0 4px 18px 0 rgba(85, 18, 116, 0.2);
+}
+
+
+/* FOOTER PART code css for portfolio  . */
+footer {
+	height: 150px;
+	background-color: #002244;
+	color: #fff;
+	padding: 20px;
+	width: 100%;
+	display: inline block;
+
+	box-sizing: border-box;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer p:hover {
+	color: #770606;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #2e37b4,
+		0 0 82px #2e37b4,
+		0 0 92px #2e37b4,
+		0 0 102px #2e37b4,
+		0 0 151px #2e37b4;
+}
+
+fieldset {
+	padding: 4%;
+	border-color: #002244;
+}
+
+#projects {
+	background-color: #002244;
+}
+
+#projects img {
+	width: 250px;
+	height: 250px;
+}
+
+
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+li .card {
+	background-color: #ece285;
+	margin-top: 5%;
+}
+
+
+
+#My-skil {
+	height: 500px;
+	width: fit-content;
+}
+
+
+
+
+section {
+	width: 960px;
+}
+
+.icon img {
+	width: 20px;
+	height: 20px;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	padding: 7px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
